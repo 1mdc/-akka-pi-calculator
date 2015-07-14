@@ -8,7 +8,7 @@ import scala.concurrent.duration.Duration
 /**
  * Created by hoang on 11/07/15.
  *
- * This class is to calculate pi number based on the algorithm: pi/4 = 1/1 + 1/2 - 1/3 + 1/4 - 1/5 ....
+ * This class is to calculate pi number based on the algorithm: pi/4 = 1/1 - 1/3 + 1/5 - 1/7 + ....
  * We will use akka to devide this series into chunks and calculate them in parallel
  */
 object Pi extends App{
